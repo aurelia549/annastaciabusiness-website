@@ -1,0 +1,87 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #b9c1c5d5;
+  background-image: url(https://m.media-amazon.com/images/I/61IHLDjNYoL._SL1000_.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  flex-grow: 1;
+}
+
+/* Header styles */
+.header {
+  text-align: center;
+  padding: 20px;
+}
+
+.header h1 {
+  font-size: 65px;
+  font-family: Algerian;
+  color: #fcfcfc;
+}
+
+/* Navigation styles */
+.navbar {
+  background-color: #6F4E37;
+  padding: 20px;
+  width: 180px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.navbar li {
+  margin-bottom: 10px;
+}
+
+.navbar a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #e0e0e0;
+}
+
+.content {
+  background-color: #fff;
+  margin-left: 200px;
+  padding: 20px;
+}
+
+.content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 16px;
+}
+
+.footer {
+  background-color: #6F4E37;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+}
