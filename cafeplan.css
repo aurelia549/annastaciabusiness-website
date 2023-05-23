@@ -1,21 +1,27 @@
-/* Reset default styles */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Global styles */
+html{
+    background-image: url(https://m.media-amazon.com/images/I/61IHLDjNYoL._SL1000_.jpg) no-repeat center fixed;
+    background-size:cover;
+
+}
 body {
   font-family: Arial, sans-serif;
   background-color: #b9c1c5d5;
-  background-image: url(https://m.media-amazon.com/images/I/61IHLDjNYoL._SL1000_.jpg);
   background-size: cover;
   background-position: center;
   color: #333;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  width:100%;
+  height:auto;
+  
 }
 
 .container {
