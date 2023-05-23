@@ -86,8 +86,22 @@ body {
 }
 
 .footer {
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  height:auto;
+  width:100vw;
   background-color: #6F4E37;
   text-align: center;
-  padding: 20px;
+  padding-top: 40px;
   color: #fff;
 }
+.footer content{
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction:column;
+  text-align:center;
+}
+  
