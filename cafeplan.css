@@ -5,14 +5,10 @@
   box-sizing: border-box;
 }
 
-html{
-    background-image: url(https://m.media-amazon.com/images/I/61IHLDjNYoL._SL1000_.jpg) no-repeat center fixed;
-    background-size:cover;
 
-}
 body {
   font-family: Arial, sans-serif;
-  background-color: #b9c1c5d5;
+  background-image: url(https://m.media-amazon.com/images/I/61IHLDjNYoL._SL1000_.jpg) no-repeat center fixed;background-color: #b9c1c5d5;
   background-size: cover;
   background-position: center;
   color: #333;
@@ -33,17 +29,24 @@ body {
 
 /* Header styles */
 .header {
+  overflow:hidden;
   text-align: center;
-  padding: 20px;
+  padding: 20px 10px;
 }
 
 .header h1 {
+  float:left;
+  text-align:center;
+  padding:12px;
   font-size: 65px;
   font-family: Algerian;
   color: #fcfcfc;
 }
+.header-right{
+  float:none;
+}
 
-/* Navigation styles */
+
 .navbar {
   background-color: #6F4E37;
   padding: 20px;
