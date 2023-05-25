@@ -151,11 +151,24 @@ body {
     padding: 10px;
   }
 }
-  
-    .logo {
-    display: block;
-    margin: 0 auto;
-    max-width: 200px; /* Adjust the max-width according to your logo dimensions */
-    height: auto;
-    padding: 10px;
+      
+ header {
+  display: flex;
+  align-items: center; /* Align items vertically */
 }
+
+.logo-container {
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.logo {
+  width: 50px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.header-text {
+  margin: 0; /* Remove default margin */
+}
+
+    
+    
