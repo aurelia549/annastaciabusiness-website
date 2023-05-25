@@ -12,6 +12,8 @@ body {
   color: #333;
   min-height: 100vh;
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
@@ -67,6 +69,7 @@ body {
   background-color: #fff;
   margin-left: 200px;
   padding: 20px;
+  flex-grow: 1;
 }
 
 .content h2 {
