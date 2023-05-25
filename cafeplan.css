@@ -11,24 +11,26 @@ body {
   background-position: center;
   color: #333;
   min-height: 100vh;
-  width: 100%;
   display: flex;
   flex-direction: column;
+  width: 100%;
+  height: auto;
 }
 
 .container {
   max-width: 100%;
+  margin: 0 auto;
   padding: 20px;
   flex-grow: 1;
 }
 
 .header {
   text-align: center;
-  padding: 20px 10px;
+  padding: 20px;
 }
 
 .header h1 {
-  font-size: 35px;
+  font-size: 4rem;
   padding: 12px;
   font-family: Algerian;
   color: #fcfcfc;
@@ -38,15 +40,10 @@ body {
   background-color: #6F4E37;
   padding: 20px;
   position: fixed;
+  left: 0;
   top: 0;
   bottom: 0;
-  left: 0;
   width: 180px;
-}
-
-.navbar ul {
-  list-style: none;
-  margin-top: 20px;
 }
 
 .navbar li {
@@ -69,21 +66,33 @@ body {
   background-color: #fff;
   margin-left: 200px;
   padding: 20px;
-  flex-grow: 1;
 }
 
 .content h2 {
-  font-size: 24px;
+  font-size: 2rem;
   margin-bottom: 10px;
 }
 
 .content p {
-  font-size: 16px;
+  font-size: 1.4rem;
 }
 
 .footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100%;
   background-color: #6F4E37;
   text-align: center;
   padding-top: 40px;
   color: #fff;
+}
+.footer content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
