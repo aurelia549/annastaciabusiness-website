@@ -78,13 +78,24 @@ body {
       color: black;
     }
     
-    .logo {
-    display: block;
-    margin: 0 auto;
-    max-width: 200px; /* Adjust the max-width according to your logo dimensions */
-    height: auto;
-    padding: 10px;
-  }
+ header {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.logo-container {
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.logo {
+  width: 50px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.header-text {
+  margin: 0; /* Remove default margin */
+}
+
     
   </style>
 </head>
@@ -100,9 +111,12 @@ body {
     </ul>
   </div>
  <header>
-    <img src="https://www.pngplay.com/wp-content/uploads/7/Cafe-Logo-PNG-HD-Quality.png" alt="Logo" class="logo">
-    <h1>Stacia Cafe Menu</h1>
-  </header>
+  <div class="logo-container">
+    <img src="path/to/your/logo.png" alt="Logo" class="logo">
+  </div>
+  <h1 class="header-text">Your Header Text</h1>
+</header>
+
   <div class="menu">
     <div class="menu-section">
       <h2 class="section-title">Espresso Based Drinks</h2>
