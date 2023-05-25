@@ -151,3 +151,11 @@ body {
     padding: 10px;
   }
 }
+  
+    .logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px; /* Adjust the max-width according to your logo dimensions */
+    height: auto;
+    padding: 10px;
+}
