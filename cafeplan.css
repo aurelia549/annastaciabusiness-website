@@ -54,6 +54,7 @@ body {
   margin-bottom: 10px;
 }
 
+
 .navbar a {
   display: block;
   color: #fff;
@@ -64,6 +65,11 @@ body {
 
 .navbar a:hover {
   background-color: #e0e0e0;
+}
+
+.navbar a:active,
+.navbar a.active {
+  color: #51c6ce; 
 }
 
 .content {
