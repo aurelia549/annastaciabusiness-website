@@ -33,7 +33,31 @@ body {
 }
 
 .navbar {
-  display: none;
+  background-color: #6F4E37;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.navbar ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.navbar li {
+  margin-bottom: 10px;
+}
+
+.navbar a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #e0e0e0;
 }
 
 .content {
@@ -56,4 +80,3 @@ body {
   padding-top: 40px;
   color: #fff;
 }
-
