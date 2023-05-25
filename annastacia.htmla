@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cafe Business Plan</title>
   <link rel="stylesheet" type="text/css" href="cafeplan.css">
 </head>
 <body>
   <header class="header">
     <div class="container">
-      <h1>STACIA CAFE </h1>
+      <h1>STACIA CAFE</h1>
     </div>
   </header>
 
@@ -18,20 +18,21 @@
       <ul>
         <li><a href="annastacia.html">Home</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="businessplan.html">Business plan</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="businessplan.html">Business Plan</a></li>
+        <li><a href="menu.html">Menu</a></li>
       </ul>
     </nav>
 
     <main class="content">
       <h2>Welcome to Stacia Cafe Business Plan Website</h2>
-      <p>This websites presents the business plan of the upcoming Stacia cafe that aims to provide a high quality coffee, fresh and healthy food options, and a comfortable and welcoming atmosphere for our customers in Westlands, Nairobi.</p>
+      <p>This website presents the business plan of the upcoming Stacia cafe that aims to provide high-quality coffee, fresh and healthy food options, and a comfortable and welcoming atmosphere for our customers in Westlands, Nairobi.</p>
     </main>
   </div>
 
   <footer class="footer">
     <div class="container">
-      <p>&copy; 2023 All rights reserved.</p>
+      <p>Contact Info: annastaciaoki7@gmail.com | Phone: 0724219619</p>
+
     </div>
   </footer>
 </body>
