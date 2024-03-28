@@ -2,155 +2,43 @@
 <html lang="en">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style> 
-    body {
-      font-family: "Arial", sans-serif;
-      background-color: #f9f1f3;
-      margin: 0;
-      padding: 0;
-    }
-
-  header {
+ <style>
+  /* Existing CSS */
+  .navbar {
+    background-color: #795548; /* Brown theme */
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
     font-family: Algerian;
-    padding: 20px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-    font-size: 4rem;
-    padding: 12px;
     color: #fcfcfc;
-}
-  
-    .logo-container {
-      margin-right: 10px;
-    }
+    text-align: center; /* Center align the links */
+  }
 
-    .logo {
-      width: 50px;
-      height: auto;
-    }
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
 
-    .header-text {
-      margin: 0;
-      color: black;
-      font-size: 24px;
-      font-weight: bold;
-      text-transform: uppercase;
-    }
+  .navbar li {
+    margin: 0 10px;
+  }
 
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-    }
+  .navbar li a {
+    text-decoration: none;
+    color: #fcfcfc; /* White color for links */
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s;
+  }
 
-    .navbar {
-    
-      border-radius: 10px;
-      padding: 10px;
-      margin-bottom: 20px;
-      font-family: Algerian;
-      color: #fcfcfc;
-    }
+  .navbar li a:hover {
+    color: #ffffff; /* White color on hover */
+  }
+</style>
 
-    .navbar ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-}
-
-    }
-
-    .navbar li {
-      margin: 0 10px;
-    }
-
-    .navbar li a {
-      text-decoration: none;
-      color: #f06292;
-      font-weight: bold;
-      text-transform: uppercase;
-      transition: color 0.3s;
-    }
-
-    .navbar li a:hover {
-      color: #880e4f;
-    }
-
-    .content {
-      background-color: white;
-      border-radius: 10px;
-      padding: 20px;
-    }
-
-    .content h2 {
-      color: #f06292;
-      text-align: center;
-      margin-bottom: 20px;
-    }
-
-    .content p {
-      color: #555555;
-      line-height: 1.5;
-      text-align: justify;
-    }
-
-    .footer {
-      background-color: #f06292;
-      color: white;
-      text-align: center;
-      padding: 20px;
-      font-size: 14px;
-    }
-
-    .footer p {
-      margin: 5px 0;
-    }
-
-    /* Responsive Styles */
-    @media screen and (max-width: 600px) {
-      .header-text {
-        font-size: 20px;
-      }
-
-      .navbar li {
-        margin: 0 5px;
-      }
-
-      .content {
-        padding: 10px;
-      }
-
-      .footer {
-        padding: 10px;
-      }
-    }
-
-    @media screen and (max-width: 400px) {
-      .header-text {
-        font-size: 18px;
-      }
-
-      .navbar {
-        padding: 5px;
-      }
-
-      .navbar li {
-        margin: 0 3px;
-      }
-
-      .content {
-        padding: 5px;
-      }
-
-      .footer {
-        padding: 5px;
-      }
-    }
-  </style>
   <title>Stacia Cafe - About</title>
 </head>
 <body>
